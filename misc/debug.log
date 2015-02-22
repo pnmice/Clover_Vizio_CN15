@@ -1,0 +1,1791 @@
+0:100  0:100  MemLog inited, TSC freq: 2294781863
+0:100  0:000  
+0:100  0:000  Now is 22.2.2015,  4:22:49 (GMT+2047)
+0:100  0:000  Starting Clover rev 3176:3182 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000) @C7E7E618
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3176:3182  running on CN15-A5
+0:100  0:000  ... with board VZ4
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00020414
+0:100  0:000  MSR 0xCE              00080C10_E0011700
+0:100  0:000  non-usable FLEX_RATIO = 110000
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x3A/0x9
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 23.0/12
+0:100  0:000  Turbo: 31/31/32/33
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 0FD3 class=030000
+0:100  0:000  Found NVidia model=Quanta GeForce GT 640M LE
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000  Found GFX model=Intel HD Graphics 4000
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000  LAN 0, Vendor=10EC, MMIO=D000
+0:100  0:000  PCI (00|00:1C.05) : 8086 1E1A class=060400
+0:100  0:000  PCI (00|04:00.00) : 168C 002A class=028000
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 282A class=010400
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : 8086 1E24 class=118000
+0:100  0:000  Clover load options size = 0 bytes
+0:101  0:000  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:101  0:000  EFI\CLOVER\config.plist loaded: Success
+0:101  0:000  Found theme directory: EMBEDDED
+0:101  0:000  Found theme directory: RANDOM
+0:102  0:000  Loading early settings
+0:102  0:000  timeout set to 5
+0:102  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:109  0:007  Default theme: embedded
+0:109  0:000  LoadDrivers() start
+0:109  0:000  Loading CsmVideoDxe-64.efi  status=Success
+0:110  0:001   - driver needs connecting
+0:111  0:000  Loading DataHubDxe-64.efi  status=Success
+0:156  0:044  Loading EmuVariableUefi-64.efi  status=Success
+0:157  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:159  0:001  Loading FSInject-64.efi  status=Success
+0:160  0:001  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:161  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:162  0:001  Loading PartitionDxe-64.efi  status=Success
+0:163  0:001   - driver needs connecting
+0:163  0:000  Loading VBoxHfs-64.efi  status=Success
+0:164  0:001   - driver needs connecting
+0:164  0:000  3 drivers needs connecting ...
+0:164  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:165  0:000  Partition driver loaded: 
+0:165  0:000  Video driver loaded: disconnect Successdisconnect Success
+0:582  0:416  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:520  0:938  LoadDrivers() end
+1:521  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:577  0:056  SetScreenResolution: 1280x1024 - setting Mode 4
+1:642  0:064  Video mode change to mode #4: Success
+1:642  0:000  Console modes reported: 3, available modes:
+1:642  0:000    Mode 1: 80x25 (current mode)
+1:642  0:000    Mode 2: 80x50
+1:642  0:000    Mode 3: 100x31
+1:643  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:643  0:000  MAC address of LAN #0= 00:6B:9E:04:02:3D:
+1:644  0:000  ScanSPD() start
+1:645  0:000  SMBus CmdReg: 0x3
+1:645  0:000  Scanning SMBus [8086:1E22], mmio: 0xF7915004, ioport: 0xF040, hostc: 0x1
+1:645  0:000  Slots to scan [8]...
+1:660  0:014  SPD[0]: Type 11 @0x50 
+1:660  0:000  DDR speed 1333MHz 
+1:660  0:000  Slot: 0 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:681  0:020  SPD[2]: Type 11 @0x52 
+1:682  0:000  DDR speed 1333MHz 
+1:682  0:000  Slot: 2 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:712  0:030  ScanSPD() end
+1:712  0:000  Get Acpi Tables List from RSDT:
+1:713  0:000   Found table: FACP  Computer len=132
+1:713  0:000   Found table: APIC  Computer len=146
+1:713  0:000   Found table: FPDT  Computer len=68
+1:713  0:000   Found table: ASF!  Computer len=165
+1:713  0:000   Found table: MCFG  Computer len=60
+1:713  0:000   Found table: MSDM  Computer len=85
+1:713  0:000   Found table: HPET  Computer len=56
+1:714  0:000   Found table: SSDT  SataTabl len=789
+1:714  0:000   Found table: SSDT  Cpu0Ist len=2276
+1:714  0:000   Found table: SSDT  CpuPm len=2706
+1:714  0:000   Found table: BGRT  Computer len=56
+1:714  0:000   Found table: UEFI  RstSataV len=92
+1:714  0:000   Found table: SSDT  SgTabl len=2270
+1:714  0:000   Found table: SSDT  OptTabl len=4904
+1:715  0:000  Calibrated TSC frequency =2294781863 =2294MHz
+1:715  0:000  Loading main settings
+1:715  0:000  USB FixOwnership: true
+1:715  0:000  Dropping 3 tables
+1:715  0:000  Drop table 0 signature="DMAR" (52414D44)
+1:716  0:001  set table: 52414D44,                0 to drop:
+1:717  0:000  Drop table 1 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+1:719  0:002  set table: 54445353,   74734930757043 to drop:  true
+1:719  0:000  
+1:719  0:000  Drop table 2 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+1:721  0:001  set table: 54445353,       6D50757043 to drop:  true
+1:721  0:000  
+1:721  0:000  Config set Fixes will override FixMask mask!
+1:722  0:000     final mask=9FC2F9D7
+1:722  0:000  Config set ChassisType=0x8
+1:722  0:000  Config set QPI=45MHz
+1:722  0:000  Config set CpuFreq=2300MHz
+1:722  0:000  Config set BusSpeed=100kHz
+1:722  0:000  found 7 volumes with blockIO
+1:723  0:000   0. Volume:
+1:723  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)
+1:723  0:000    Result of bootcode detection: bootable Linux (grub,linux)
+1:723  0:000   1. Volume:
+1:723  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x8000,0x0)
+1:724  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:724  0:000   2. Volume:
+1:724  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(1,GPT,BD209044-77AC-44A5-B132-511CA01674D6,0x800,0x800)
+1:724  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:725  0:000   3. Volume:
+1:725  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:725  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:725  0:000    This is SelfVolume !!
+1:725  0:000   4. Volume:
+1:725  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(3,GPT,06A761D6-B916-4A96-91C3-8C2E1F170BF0,0x118800,0x38D5800)
+1:726  0:000   5. Volume:
+1:726  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:726  0:000   6. Volume:
+1:726  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(6,GPT,8FF72CF7-DB01-4912-85A7-6AFEDA6A2314,0x3B8AB368,0x135F20)
+1:727  0:001  Loading nvram.plist from Vol 'New Volume' - loaded, size=694
+1:728  0:000  PutNvramPlistToRtVars ...
+1:728  0:000   Skipping EmuVariableUefiPresent
+1:728  0:000   Skipping OsxAptioFixDrv-RelocBase
+1:728  0:000  no themes available, using embedded
+1:728  0:000  Choosing theme <null string>
+1:729  0:000  Custom entries start
+1:729  0:000  Custom entries finish
+1:729  0:000  Scanning loaders...
+1:729  0:000   0: 'Whole Disc Boot' no file system
+1:729  0:000   1: 'Whole Disc Boot' no file system
+1:729  0:000   2: 'Legacy HD1' no file system
+1:730  0:000   3: 'EFI'
+1:730  0:000      AddLoaderEntry for Volume Name=EFI
+1:731  0:000      AddLoaderEntry for Volume Name=EFI
+1:811  0:079   4: 'Legacy HD3' no file system
+1:811  0:000   5: 'New Volume'
+1:813  0:002      AddLoaderEntry for Volume Name=New Volume
+1:815  0:001      Check if volume Is Hibernated:
+1:815  0:000      Check sleep image 'by signature':
+1:816  0:001      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+1:817  0:000      SleepImage name from pref: ImageVolume = 'New Volume', ImageName = '\private\var\vm\sleepimage'
+1:818  0:001      Reading first 512 bytes of sleepimage ...
+1:818  0:000   OurBlockIoRead: Lba=13A254F0, Offset=2744A9E000 (BlockSize=512)
+1:818  0:000   sig lion: DBF060
+1:819  0:000   sig snow: 19A5082
+1:819  0:000   no valid sleep image offset was found
+1:819  0:000      Reading completed -> Success
+1:819  0:000       sleepimage offset could not be acquired
+1:819  0:000       hibernated: no - sign
+1:840  0:021   6: 'Recovery HD'
+1:841  0:000      AddLoaderEntry for Volume Name=Recovery HD
+1:842  0:001  Custom legacy start
+1:842  0:000  Custom legacy end
+1:843  0:000  Scanning legacy ...
+1:843  0:000   0: 'Whole Disc Boot' (grub,linux) hidden
+1:843  0:000   1: 'Whole Disc Boot' (legacy) not legacy
+1:843  0:000   2: 'Legacy HD1' (legacy) not legacy
+1:843  0:000   3: 'EFI' (legacy) not legacy
+1:844  0:000   4: 'Legacy HD3' (legacy) not legacy
+1:844  0:000   5: 'New Volume' (legacy) not legacy
+1:844  0:000   6: 'Recovery HD' (legacy) not legacy
+1:845  0:000  Custom tool start
+1:845  0:000  Custom tool end
+1:845  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+1:845  0:000  Checking EFI partition Volume 3 for Clover
+1:845  0:000   Found Clover
+1:846  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:846  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:904  0:057  GetEfiBootDeviceFromNvram: efi-boot-device-data not found
+1:904  0:000  EfiBootVolume not found
+1:904  0:000  Default boot entry not found
+1:904  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:905  0:000  DefaultIndex=-1 and MainMenu.EntryCount=10
+1:945  0:040  GUI ready
+4:521  2:576  BootOption of the entry is empty
+4:523  0:001  StartLoader() start
+4:523  0:000  Finally: Bus=99773kHz CPU=2300MHz
+4:523  0:000  Kernel and Kext Patches at BA6D5E30:
+4:524  0:000  	Allowed: y
+4:524  0:000  	Debug: n
+4:524  0:000  	KernelCpu: n
+4:524  0:000  	Lapic: n
+4:524  0:000  	Haswell-E: n
+4:524  0:000  	AICPUPM: y
+4:525  0:000  	AppleRTC: y
+4:525  0:000  	KernelPm: y
+4:525  0:000  	FakeCPUID: 0x0
+4:525  0:000  	ATIController: null
+4:525  0:000  	ATIDataLength: 0
+4:525  0:000  	0 Kexts to load
+4:525  0:000  	0 Kexts to patch
+4:525  0:000  Loading boot.efi  status=Success
+4:577  0:051  GetOSVersion: : 10.10.1
+4:578  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+4:635  0:057  insert table 9 for dev 0:0
+4:635  0:000  insert table 9 for dev 0:0
+4:635  0:000  insert table 9 for dev 0:0
+4:636  0:000  Channels: 2
+4:637  0:000  Interleave: 0 2 1 3 4 6 5 7
+4:638  0:001  SMBIOS Type 17 Index = 0 => 0 0:
+4:638  0:000  BANK0 DIMM0 1333MHz 8192MB
+4:638  0:000  mTotalSystemMemory = 8192
+4:638  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+4:638  0:000  BANK1 DIMM0 1333MHz 8192MB
+4:639  0:000  mTotalSystemMemory = 16384
+4:639  0:000  NumberOfMemoryDevices = 2
+4:639  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+4:639  0:000  Type20[1]->End = 0xFFFFFF, Type17[1] = 0x6000
+4:639  0:000  Table 131 is present, CPUType=31
+4:639  0:000  Change to: 704
+4:639  0:000  RSDT 0xC99EC028
+4:640  0:000  FADT from RSDT: 0xC99EC128
+4:640  0:000  XSDT 0xC99EC088
+4:640  0:000  FADT from XSDT: 0xC99F57C0
+4:640  0:000  Xsdt reallocation done
+4:640  0:000  old FADT length=10C
+4:640  0:000  Found OperationRegion(GNVS, SystemMemory, CA046E18, ...)
+4:640  0:000  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+4:641  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+4:641  0:000  Found OperationRegion(CPSB, SystemMemory, C99E8E18, ...)
+4:641  0:000  Found OperationRegion(IGDM, SystemMemory, 0, ...)
+4:641  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+4:641  0:000  Found OperationRegion(TVID, SystemMemory, FED40F00, ...)
+4:641  0:000  Found OperationRegion(TPMR, SystemMemory, FED40000, ...)
+4:642  0:000  Apply DsdtFixMask=0x9FC2F9D7 new way
+4:642  0:000     drop _DSM mask=0x0000
+4:642  0:000  ========= Auto patch DSDT Starting ========
+4:642  0:000  VideoCard devID=0xFD310DE
+4:642  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+4:642  0:000  VideoCard devID=0x1668086
+4:643  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+4:643  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+4:643  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+4:779  0:136  Found Airport Atheros at 0x1C0005, 0x0, DeviceID=0x002A
+4:779  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+4:780  0:000  first CPU found at 5B9D offset 5BA0
+4:780  0:000  score candidate at 5B99
+4:780  0:000  score inserted in acpi_cpu_score _PR_
+4:780  0:000  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+4:781  0:001  Found PCIROOTUID = 0
+4:782  0:000  Start RTC Fix
+4:782  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+4:782  0:000  found RTC had IRQNoFlag will move -3 bytes
+4:782  0:000  ...len=9647
+4:782  0:000  new size written to 1FEE shift=0 len=9647
+4:783  0:000  len after correct outers 9647
+4:783  0:000  Start PIC Fix
+4:783  0:000  PIC size=A5 at 1E82
+4:783  0:000  found CRS at 1E96 size 8D
+4:783  0:000  found PIC had IRQNoFlag will move -3 bytes
+4:783  0:000  Fix Device PIC size -3
+4:784  0:000  Start HPET Fix
+4:785  0:000  Start Display0 Fix
+4:785  0:000  Found internal video device FFFF@26AE, unusable
+4:785  0:000  Creating DSM for NVIDIA card
+4:785  0:000  patch Display #0 of Vendor=0x10DE in DSDT new way
+4:785  0:000  Start NetWork Fix
+4:786  0:000  found NetWork device [0x001C0002:0] at 2529 and Name is PXSX
+4:786  0:000  NetworkADR1=1C0002 NetworkADR2=0
+4:786  0:000  network DSM created, size=7C
+4:787  0:000  Start Airport Fix
+4:787  0:000  found Airport device [001C0005:0] at 26A5 And Name is PXSX
+4:787  0:000  Name PXSX present at 0xA2, renaming to ARPT
+4:787  0:000  Name PXSX present at 0xE0, renaming to ARPT
+4:787  0:000  AirportADR=26A5 add patch size=119
+4:788  0:000  adr 26A5 size of arpt=17
+4:788  0:000  Start SBUS Fix PCI=E65 len=9769
+4:788  0:000  device (SBUS) found at 3B71
+4:789  0:000  SBUS code size fix = 0x0000005D
+4:789  0:000  patch HDEF in DSDT 
+4:789  0:000  Start HDA Fix
+4:789  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+4:790  0:000  NewName HDEF already present, renaming impossibble
+4:790  0:000  Start USB Fix
+4:790  0:000  USB bridge[140000] at 34C8, size = 645
+4:791  0:000  USB bridge[1A0000] at 311C, size = 3AA
+4:791  0:000   found slave _DSM, skip
+4:791  0:000  USB bridge[1D0000] at 2BE6, size = 534
+4:791  0:000   found slave _DSM, skip
+4:792  0:000   deleting device CRT_
+4:792  0:000   deleting device DVI_
+4:793  0:000   deleting device SPKR
+4:793  0:000   deleting device ECP_
+4:793  0:000   deleting device LPT_
+4:794  0:000   deleting device FDC0
+4:795  0:000   deleting device ECP1
+4:795  0:000   deleting device LPT1
+4:796  0:000  Start PNLF Fix
+4:796  0:000  found PWRB at 6F43
+4:796  0:000  Start _S3D Fix
+4:797  0:000  OperationRegion (GNVS...) corrected to addr=0xCA046E18
+4:797  0:000  OperationRegion (MCHT...) corrected to addr=0xFED10000
+4:797  0:000    indirect name=SRCB
+4:797  0:000  OperationRegion (RCRB...) corrected to addr=0xFED1C000
+4:797  0:000  OperationRegion (CPSB...) corrected to addr=0xC99E8E18
+4:797  0:000    indirect name=ASLB
+4:798  0:000  ... value not defined
+4:798  0:000  OperationRegion (IGDM...) corrected to addr=0x0
+4:798  0:000  OperationRegion (TMMB...) corrected to addr=0xFED40000
+4:798  0:000  OperationRegion (TVID...) corrected to addr=0xFED40F00
+4:798  0:000  OperationRegion (TPMR...) corrected to addr=0xFED40000
+4:798  0:000  Start ADP1 fix
+4:799  0:000  Name ACAD present at 0x85C5, renaming to ADP1
+4:799  0:000  Name ACAD present at 0x9053, renaming to ADP1
+4:799  0:000  Name ACAD present at 0x910B, renaming to ADP1
+4:799  0:000  Name ACAD present at 0x9127, renaming to ADP1
+4:800  0:000  Start Darwin Fix
+4:800  0:000  Name _OSI present at 0x15C7, renaming to OOSI
+4:800  0:000  Name _OSI present at 0x3546, renaming to OOSI
+4:800  0:000  Name _OSI present at 0x6523, renaming to OOSI
+4:800  0:000  Name _OSI present at 0x652A, renaming to OOSI
+4:800  0:000  Name _OSI present at 0x6546, renaming to OOSI
+4:800  0:000  Name _OSI present at 0x6566, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x6586, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x65A4, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x65C0, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x65DC, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x8210, renaming to OOSI
+4:801  0:000  Name _OSI present at 0x8995, renaming to OOSI
+4:802  0:000  Start SHUTDOWN Fix len=99E6
+4:802  0:000  ========= Auto patch DSDT Finished ========
+4:802  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=CpuPm Length=2706
+4:802  0:000   Xsdt has tables count=14 
+4:802  0:000   Table: SSDT  CpuPm  2706 dropped
+4:803  0:000  corrected XSDT length=140
+4:803  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=Cpu0Ist Length=2276
+4:803  0:000   Xsdt has tables count=13 
+4:803  0:000   Table: SSDT  Cpu0Ist  2276 dropped
+4:803  0:000  corrected XSDT length=132
+4:803  0:000  Patch table: SSDT  SataTabl
+4:803  0:000   SSDT len = 0x315
+4:803  0:000  Patch table: SSDT  SgTabl
+4:804  0:000   SSDT len = 0x8DE
+4:804  0:000  Patch table: SSDT  OptTabl
+4:804  0:000   SSDT len = 0x1328
+4:804  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+4:804  0:000   Xsdt has tables count=12 
+4:804  0:000  corrected XSDT length=132
+4:805  0:000   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+4:805  0:000  Maximum control=0x17
+4:805  0:000  Turbo control=0x21
+4:805  0:000  P-States: min 0x7, max 0x21
+4:805  0:000  SSDT with CPU P-States generated successfully
+4:805  0:000  SSDT with CPU C-States generated successfully
+4:806  0:000  NVidia GFX injection not set
+4:806  0:000  Intel Intel HD Graphics 4000 [8086:0166] :: PciRoot(0x0)\Pci(0x2,0x0)
+4:806  0:000  Intel GFX revision  =0x9
+4:806  0:000  USB Controller [8086:1E31] :: PciRoot(0x0)\Pci(0x14,0x0)
+4:806  0:000  USB Controller [8086:1E2D] :: PciRoot(0x0)\Pci(0x1A,0x0)
+4:806  0:000  HDA Controller [8086:1E20] :: PciRoot(0x0)\Pci(0x1B,0x0) => codec not detected
+4:942  0:135  USB Controller [8086:1E26] :: PciRoot(0x0)\Pci(0x1D,0x0)
+4:942  0:000  stringlength = 2654
+4:943  0:000  CurrentMode: Width=1280 Height=1024
+4:943  0:000  FSInjection: using kexts path: 'EFI\CLOVER\kexts\Other'4:943  0:000  
+4:945  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+4:946  0:000    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+4:947  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+4:949  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+4:950  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+4:952  0:001    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelFramebufferCapri.kext
+4:955  0:002    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelSNBGraphicsFB.kext
+4:957  0:002    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+4:959  0:002    Extra kext: EFI\CLOVER\kexts\Other\HPRAIDInjector.kext
+4:960  0:000    Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext
+4:962  0:002  SetStartupDiskVolume:
+4:962  0:000    * Volume: 'New Volume'
+4:962  0:000    * LoaderPath: '<null string>'
+4:962  0:000    * DevPath: New Volume
+4:962  0:000    * GUID = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+4:963  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>56B0B245-51D9-463D-9B79-CEA9F125FBAF</string></dict></dict></dict></array>
+4:963  0:000  Custom boot screen not used because entry has unset use graphics
+4:963  0:000  Closing log
+6:533  1:570  Legacy USB Off Done
+6:536  0:002  USB EHCI Ownership for device 1E2D value=1000001
+6:536  0:000  Legacy USB Off Done
+6:537  0:000  USB EHCI Ownership for device 1E26 value=1000001
+0:100  0:100  MemLog inited, TSC freq: 2294790674
+0:100  0:000  
+0:100  0:000  Now is 22.2.2015,  4:30:15 (GMT+2047)
+0:100  0:000  Starting Clover rev 3176:3182 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000) @C7E7E618
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3176:3182  running on CN15-A5
+0:100  0:000  ... with board VZ4
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00020414
+0:100  0:000  MSR 0xCE              00080C10_E0011700
+0:100  0:000  non-usable FLEX_RATIO = 110000
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x3A/0x9
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 23.0/12
+0:100  0:000  Turbo: 31/31/32/33
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 0FD3 class=030000
+0:100  0:000  Found NVidia model=Quanta GeForce GT 640M LE
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000  Found GFX model=Intel HD Graphics 4000
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000  LAN 0, Vendor=10EC, MMIO=D000
+0:100  0:000  PCI (00|00:1C.05) : 8086 1E1A class=060400
+0:100  0:000  PCI (00|04:00.00) : 168C 002A class=028000
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 282A class=010400
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : 8086 1E24 class=118000
+0:100  0:000  Clover load options size = 0 bytes
+0:101  0:000  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:101  0:000  EFI\CLOVER\config.plist loaded: Success
+0:101  0:000  Found theme directory: EMBEDDED
+0:101  0:000  Found theme directory: RANDOM
+0:102  0:000  Loading early settings
+0:102  0:000  timeout set to 5
+0:102  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:109  0:006  Default theme: embedded
+0:109  0:000  LoadDrivers() start
+0:109  0:000  Loading CsmVideoDxe-64.efi  status=Success
+0:110  0:001   - driver needs connecting
+0:111  0:000  Loading DataHubDxe-64.efi  status=Success
+0:157  0:046  Loading EmuVariableUefi-64.efi  status=Success
+0:159  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:160  0:001  Loading FSInject-64.efi  status=Success
+0:161  0:001  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:162  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:163  0:001  Loading PartitionDxe-64.efi  status=Success
+0:164  0:001   - driver needs connecting
+0:164  0:000  Loading VBoxHfs-64.efi  status=Success
+0:166  0:001   - driver needs connecting
+0:166  0:000  3 drivers needs connecting ...
+0:166  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:166  0:000  Partition driver loaded: 
+0:166  0:000  Video driver loaded: disconnect Successdisconnect Success
+0:588  0:421  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:595  1:006  LoadDrivers() end
+1:595  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:655  0:059  SetScreenResolution: 1280x1024 - setting Mode 4
+1:719  0:064  Video mode change to mode #4: Success
+1:719  0:000  Console modes reported: 3, available modes:
+1:720  0:000    Mode 1: 80x25 (current mode)
+1:720  0:000    Mode 2: 80x50
+1:720  0:000    Mode 3: 100x31
+1:720  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:721  0:000  MAC address of LAN #0= 00:6B:9E:04:02:3D:
+1:722  0:001  ScanSPD() start
+1:722  0:000  SMBus CmdReg: 0x3
+1:723  0:000  Scanning SMBus [8086:1E22], mmio: 0xF7915004, ioport: 0xF040, hostc: 0x1
+1:723  0:000  Slots to scan [8]...
+1:737  0:014  SPD[0]: Type 11 @0x50 
+1:738  0:000  DDR speed 1333MHz 
+1:738  0:000  Slot: 0 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:759  0:020  SPD[2]: Type 11 @0x52 
+1:760  0:000  DDR speed 1333MHz 
+1:760  0:000  Slot: 2 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:790  0:030  ScanSPD() end
+1:790  0:000  Get Acpi Tables List from RSDT:
+1:790  0:000   Found table: FACP  Computer len=132
+1:791  0:000   Found table: APIC  Computer len=146
+1:791  0:000   Found table: FPDT  Computer len=68
+1:791  0:000   Found table: ASF!  Computer len=165
+1:791  0:000   Found table: MCFG  Computer len=60
+1:791  0:000   Found table: MSDM  Computer len=85
+1:791  0:000   Found table: HPET  Computer len=56
+1:792  0:000   Found table: SSDT  SataTabl len=789
+1:792  0:000   Found table: SSDT  Cpu0Ist len=2276
+1:792  0:000   Found table: SSDT  CpuPm len=2706
+1:792  0:000   Found table: BGRT  Computer len=56
+1:792  0:000   Found table: UEFI  RstSataV len=92
+1:792  0:000   Found table: SSDT  SgTabl len=2270
+1:792  0:000   Found table: SSDT  OptTabl len=4904
+1:793  0:000  Calibrated TSC frequency =2294790674 =2294MHz
+1:793  0:000  Loading main settings
+1:793  0:000  USB FixOwnership: true
+1:793  0:000  Dropping 3 tables
+1:793  0:000  Drop table 0 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+1:796  0:002  set table: 54445353,   74734930757043 to drop:  true
+1:796  0:000  
+1:796  0:000  Drop table 1 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+1:798  0:002  set table: 54445353,       6D50757043 to drop:  true
+1:798  0:000  
+1:799  0:000  Drop table 2 signature="DMAR" (52414D44)
+1:800  0:001  set table: 52414D44,                0 to drop:
+1:800  0:000  Config set Fixes will override FixMask mask!
+1:800  0:000     final mask=9FC2F9D7
+1:800  0:000  Config set ChassisType=0x8
+1:800  0:000  Config set QPI=45MHz
+1:801  0:000  Config set CpuFreq=2300MHz
+1:801  0:000  Config set BusSpeed=100kHz
+1:801  0:000  found 7 volumes with blockIO
+1:801  0:000   0. Volume:
+1:801  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)
+1:802  0:000    Result of bootcode detection: bootable Linux (grub,linux)
+1:802  0:000   1. Volume:
+1:802  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x8000,0x0)
+1:802  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:802  0:000   2. Volume:
+1:803  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(1,GPT,BD209044-77AC-44A5-B132-511CA01674D6,0x800,0x800)
+1:803  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:803  0:000   3. Volume:
+1:803  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:804  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:804  0:000    This is SelfVolume !!
+1:804  0:000   4. Volume:
+1:804  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(3,GPT,06A761D6-B916-4A96-91C3-8C2E1F170BF0,0x118800,0x38D5800)
+1:804  0:000   5. Volume:
+1:805  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:805  0:000   6. Volume:
+1:805  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(6,GPT,8FF72CF7-DB01-4912-85A7-6AFEDA6A2314,0x3B8AB368,0x135F20)
+1:806  0:000  Loading nvram.plist from Vol 'New Volume' - loaded, size=1336
+1:806  0:000  PutNvramPlistToRtVars ...
+1:807  0:000   Skipping EmuVariableUefiPresent
+1:807  0:000  no themes available, using embedded
+1:807  0:000  Choosing theme <null string>
+1:807  0:000  Custom entries start
+1:807  0:000  Custom entries finish
+1:808  0:000  Scanning loaders...
+1:808  0:000   0: 'Whole Disc Boot' no file system
+1:808  0:000   1: 'Whole Disc Boot' no file system
+1:808  0:000   2: 'Legacy HD1' no file system
+1:809  0:000   3: 'EFI'
+1:809  0:000      AddLoaderEntry for Volume Name=EFI
+1:810  0:000      AddLoaderEntry for Volume Name=EFI
+1:891  0:080   4: 'Legacy HD3' no file system
+1:891  0:000   5: 'New Volume'
+1:893  0:001      AddLoaderEntry for Volume Name=New Volume
+1:894  0:001      Check if volume Is Hibernated:
+1:894  0:000      Check sleep image 'by signature':
+1:896  0:001      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+1:896  0:000      SleepImage name from pref: ImageVolume = 'New Volume', ImageName = '\private\var\vm\sleepimage'
+1:897  0:000      Reading first 512 bytes of sleepimage ...
+1:897  0:000   OurBlockIoRead: Lba=13A254F0, Offset=2744A9E000 (BlockSize=512)
+1:898  0:000   sig lion: DBF060
+1:898  0:000   sig snow: 19A5082
+1:898  0:000   no valid sleep image offset was found
+1:898  0:000      Reading completed -> Success
+1:898  0:000       sleepimage offset could not be acquired
+1:898  0:000       hibernated: no - sign
+1:919  0:020   6: 'Recovery HD'
+1:920  0:000      AddLoaderEntry for Volume Name=Recovery HD
+1:921  0:001  Custom legacy start
+1:921  0:000  Custom legacy end
+1:921  0:000  Scanning legacy ...
+1:922  0:000   0: 'Whole Disc Boot' (grub,linux) hidden
+1:922  0:000   1: 'Whole Disc Boot' (legacy) not legacy
+1:922  0:000   2: 'Legacy HD1' (legacy) not legacy
+1:923  0:000   3: 'EFI' (legacy) not legacy
+1:923  0:000   4: 'Legacy HD3' (legacy) not legacy
+1:923  0:000   5: 'New Volume' (legacy) not legacy
+1:923  0:000   6: 'Recovery HD' (legacy) not legacy
+1:924  0:000  Custom tool start
+1:924  0:000  Custom tool end
+1:924  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+1:924  0:000  Checking EFI partition Volume 3 for Clover
+1:925  0:000   Found Clover
+1:925  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:926  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:985  0:059  GetEfiBootDeviceFromNvram:
+1:986  0:000   efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:986  0:000   Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)'
+1:986  0:000   LoaderPath: '<null string>'
+1:986  0:000   Guid = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+1:986  0:000   volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:986  0:000   searching for that partition
+1:987  0:000    found entry 2. 'Boot Mac OS X from New Volume', Volume 'New Volume'
+1:987  0:000  Boot redirected to Entry 2. 'Boot Mac OS X from New Volume'
+1:987  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:987  0:000  DefaultIndex=2 and MainMenu.EntryCount=10
+2:028  0:040  GUI ready
+3:506  1:477  BootOption of the entry is empty
+3:508  0:001  StartLoader() start
+3:508  0:000  Finally: Bus=99773kHz CPU=2300MHz
+3:508  0:000  Kernel and Kext Patches at BA6D5E30:
+3:508  0:000  	Allowed: y
+3:508  0:000  	Debug: n
+3:508  0:000  	KernelCpu: n
+3:508  0:000  	Lapic: n
+3:509  0:000  	Haswell-E: n
+3:509  0:000  	AICPUPM: y
+3:509  0:000  	AppleRTC: y
+3:509  0:000  	KernelPm: y
+3:509  0:000  	FakeCPUID: 0x0
+3:509  0:000  	ATIController: null
+3:510  0:000  	ATIDataLength: 0
+3:510  0:000  	0 Kexts to load
+3:510  0:000  	0 Kexts to patch
+3:510  0:000  Loading boot.efi  status=Success
+3:561  0:051  GetOSVersion: : 10.10.1
+3:562  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+3:622  0:060  insert table 9 for dev 0:0
+3:622  0:000  insert table 9 for dev 0:0
+3:622  0:000  insert table 9 for dev 0:0
+3:623  0:000  Channels: 2
+3:623  0:000  Interleave: 0 2 1 3 4 6 5 7
+3:625  0:001  SMBIOS Type 17 Index = 0 => 0 0:
+3:625  0:000  BANK0 DIMM0 1333MHz 8192MB
+3:625  0:000  mTotalSystemMemory = 8192
+3:625  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+3:625  0:000  BANK1 DIMM0 1333MHz 8192MB
+3:626  0:000  mTotalSystemMemory = 16384
+3:626  0:000  NumberOfMemoryDevices = 2
+3:626  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+3:626  0:000  Type20[1]->End = 0xFFFFFF, Type17[1] = 0x6000
+3:626  0:000  Table 131 is present, CPUType=31
+3:626  0:000  Change to: 704
+3:627  0:000  RSDT 0xC99EC028
+3:627  0:000  FADT from RSDT: 0xC99EC128
+3:627  0:000  XSDT 0xC99EC088
+3:627  0:000  FADT from XSDT: 0xC99F57C0
+3:627  0:000  Xsdt reallocation done
+3:627  0:000  old FADT length=10C
+3:627  0:000  Found OperationRegion(GNVS, SystemMemory, CA046E18, ...)
+3:630  0:002  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+3:630  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+3:630  0:000  Found OperationRegion(CPSB, SystemMemory, C99E8E18, ...)
+3:630  0:000  Found OperationRegion(IGDM, SystemMemory, 0, ...)
+3:630  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+3:630  0:000  Found OperationRegion(TVID, SystemMemory, FED40F00, ...)
+3:630  0:000  Found OperationRegion(TPMR, SystemMemory, FED40000, ...)
+3:631  0:000  Apply DsdtFixMask=0x9FC2F9D7 new way
+3:631  0:000     drop _DSM mask=0x0000
+3:631  0:000  ========= Auto patch DSDT Starting ========
+3:631  0:000  VideoCard devID=0xFD310DE
+3:632  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+3:632  0:000  VideoCard devID=0x1668086
+3:632  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+3:632  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+3:632  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+3:768  0:135  Found Airport Atheros at 0x1C0005, 0x0, DeviceID=0x002A
+3:768  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+3:770  0:002  first CPU found at 5B9D offset 5BA0
+3:770  0:000  score candidate at 5B99
+3:770  0:000  score inserted in acpi_cpu_score _PR_
+3:771  0:000  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+3:772  0:001  Found PCIROOTUID = 0
+3:772  0:000  Start RTC Fix
+3:773  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+3:773  0:000  found RTC had IRQNoFlag will move -3 bytes
+3:773  0:000  ...len=9647
+3:773  0:000  new size written to 1FEE shift=0 len=9647
+3:773  0:000  len after correct outers 9647
+3:774  0:000  Start PIC Fix
+3:774  0:000  PIC size=A5 at 1E82
+3:774  0:000  found CRS at 1E96 size 8D
+3:774  0:000  found PIC had IRQNoFlag will move -3 bytes
+3:774  0:000  Fix Device PIC size -3
+3:775  0:000  Start HPET Fix
+3:775  0:000  Start Display0 Fix
+3:776  0:000  Found internal video device FFFF@26AE, unusable
+3:776  0:000  Creating DSM for NVIDIA card
+3:776  0:000  patch Display #0 of Vendor=0x10DE in DSDT new way
+3:776  0:000  Start NetWork Fix
+3:777  0:000  found NetWork device [0x001C0002:0] at 2529 and Name is PXSX
+3:777  0:000  NetworkADR1=1C0002 NetworkADR2=0
+3:777  0:000  network DSM created, size=7C
+3:778  0:000  Start Airport Fix
+3:780  0:002  found Airport device [001C0005:0] at 26A5 And Name is PXSX
+3:780  0:000  Name PXSX present at 0xA2, renaming to ARPT
+3:780  0:000  Name PXSX present at 0xE0, renaming to ARPT
+3:780  0:000  AirportADR=26A5 add patch size=119
+3:780  0:000  adr 26A5 size of arpt=17
+3:781  0:000  Start SBUS Fix PCI=E65 len=9769
+3:781  0:000  device (SBUS) found at 3B71
+3:781  0:000  SBUS code size fix = 0x0000005D
+3:782  0:000  patch HDEF in DSDT 
+3:782  0:000  Start HDA Fix
+3:782  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+3:782  0:000  NewName HDEF already present, renaming impossibble
+3:783  0:000  Start USB Fix
+3:783  0:000  USB bridge[140000] at 34C8, size = 645
+3:783  0:000  USB bridge[1A0000] at 311C, size = 3AA
+3:784  0:000   found slave _DSM, skip
+3:784  0:000  USB bridge[1D0000] at 2BE6, size = 534
+3:784  0:000   found slave _DSM, skip
+3:785  0:000   deleting device CRT_
+3:785  0:000   deleting device DVI_
+3:785  0:000   deleting device SPKR
+3:786  0:000   deleting device ECP_
+3:786  0:000   deleting device LPT_
+3:787  0:000   deleting device FDC0
+3:787  0:000   deleting device ECP1
+3:787  0:000   deleting device LPT1
+3:788  0:000  Start PNLF Fix
+3:790  0:001  found PWRB at 6F43
+3:790  0:000  Start _S3D Fix
+3:790  0:000  OperationRegion (GNVS...) corrected to addr=0xCA046E18
+3:790  0:000  OperationRegion (MCHT...) corrected to addr=0xFED10000
+3:791  0:000    indirect name=SRCB
+3:791  0:000  OperationRegion (RCRB...) corrected to addr=0xFED1C000
+3:791  0:000  OperationRegion (CPSB...) corrected to addr=0xC99E8E18
+3:791  0:000    indirect name=ASLB
+3:791  0:000  ... value not defined
+3:791  0:000  OperationRegion (IGDM...) corrected to addr=0x0
+3:792  0:000  OperationRegion (TMMB...) corrected to addr=0xFED40000
+3:792  0:000  OperationRegion (TVID...) corrected to addr=0xFED40F00
+3:792  0:000  OperationRegion (TPMR...) corrected to addr=0xFED40000
+3:792  0:000  Start ADP1 fix
+3:792  0:000  Name ACAD present at 0x85C5, renaming to ADP1
+3:792  0:000  Name ACAD present at 0x9053, renaming to ADP1
+3:793  0:000  Name ACAD present at 0x910B, renaming to ADP1
+3:793  0:000  Name ACAD present at 0x9127, renaming to ADP1
+3:793  0:000  Start Darwin Fix
+3:794  0:000  Name _OSI present at 0x15C7, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x3546, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x6523, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x652A, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x6546, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x6566, renaming to OOSI
+3:794  0:000  Name _OSI present at 0x6586, renaming to OOSI
+3:795  0:000  Name _OSI present at 0x65A4, renaming to OOSI
+3:795  0:000  Name _OSI present at 0x65C0, renaming to OOSI
+3:795  0:000  Name _OSI present at 0x65DC, renaming to OOSI
+3:795  0:000  Name _OSI present at 0x8210, renaming to OOSI
+3:795  0:000  Name _OSI present at 0x8995, renaming to OOSI
+3:795  0:000  Start SHUTDOWN Fix len=99E6
+3:796  0:000  ========= Auto patch DSDT Finished ========
+3:796  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=CpuPm Length=2706
+3:796  0:000   Xsdt has tables count=14 
+3:796  0:000   Table: SSDT  CpuPm  2706 dropped
+3:796  0:000  corrected XSDT length=140
+3:797  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=Cpu0Ist Length=2276
+3:797  0:000   Xsdt has tables count=13 
+3:797  0:000   Table: SSDT  Cpu0Ist  2276 dropped
+3:797  0:000  corrected XSDT length=132
+3:797  0:000  Patch table: SSDT  SataTabl
+3:797  0:000   SSDT len = 0x315
+3:797  0:000  Patch table: SSDT  SgTabl
+3:800  0:002   SSDT len = 0x8DE
+3:800  0:000  Patch table: SSDT  OptTabl
+3:800  0:000   SSDT len = 0x1328
+3:800  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+3:800  0:000   Xsdt has tables count=12 
+3:800  0:000  corrected XSDT length=132
+3:801  0:000   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+3:801  0:000  Maximum control=0x17
+3:801  0:000  Turbo control=0x21
+3:801  0:000  P-States: min 0x7, max 0x21
+3:801  0:000  SSDT with CPU P-States generated successfully
+3:801  0:000  SSDT with CPU C-States generated successfully
+3:802  0:000  NVidia GFX injection not set
+3:802  0:000  Intel Intel HD Graphics 4000 [8086:0166] :: PciRoot(0x0)\Pci(0x2,0x0)
+3:802  0:000  Intel GFX revision  =0x9
+3:802  0:000  USB Controller [8086:1E31] :: PciRoot(0x0)\Pci(0x14,0x0)
+3:802  0:000  USB Controller [8086:1E2D] :: PciRoot(0x0)\Pci(0x1A,0x0)
+3:802  0:000  HDA Controller [8086:1E20] :: PciRoot(0x0)\Pci(0x1B,0x0) => codec not detected
+3:938  0:135  USB Controller [8086:1E26] :: PciRoot(0x0)\Pci(0x1D,0x0)
+3:938  0:000  stringlength = 2654
+3:939  0:000  CurrentMode: Width=1280 Height=1024
+3:939  0:000  FSInjection: using kexts path: 'EFI\CLOVER\kexts\Other'3:939  0:000  
+3:942  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+3:942  0:000    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+3:943  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+3:945  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+3:946  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+3:948  0:002    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelFramebufferCapri.kext
+3:951  0:002    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelSNBGraphicsFB.kext
+3:953  0:002    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+3:955  0:002    Extra kext: EFI\CLOVER\kexts\Other\HPRAIDInjector.kext
+3:956  0:000    Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext
+3:958  0:001  SetStartupDiskVolume:
+3:960  0:001    * Volume: 'New Volume'
+3:960  0:000    * LoaderPath: '<null string>'
+3:960  0:000    * DevPath: New Volume
+3:960  0:000    * GUID = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+3:960  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>56B0B245-51D9-463D-9B79-CEA9F125FBAF</string></dict></dict></dict></array>
+3:961  0:000  Custom boot screen not used because entry has unset use graphics
+3:961  0:000  Closing log
+5:531  1:570  Legacy USB Off Done
+5:534  0:002  USB EHCI Ownership for device 1E2D value=1000001
+5:535  0:000  Legacy USB Off Done
+5:535  0:000  USB EHCI Ownership for device 1E26 value=1000001
+0:100  0:100  MemLog inited, TSC freq: 2294788605
+0:100  0:000  
+0:100  0:000  Now is 22.2.2015,  4:37:48 (GMT+2047)
+0:100  0:000  Starting Clover rev 3176:3182 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000) @C7E62598
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3176:3182  running on CN15-A5
+0:100  0:000  ... with board VZ4
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00020414
+0:100  0:000  MSR 0xCE              00080C10_E0011700
+0:100  0:000  non-usable FLEX_RATIO = 110000
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x3A/0x9
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 23.0/12
+0:100  0:000  Turbo: 31/31/32/33
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 0FD3 class=030000
+0:100  0:000  Found NVidia model=Quanta GeForce GT 640M LE
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000  Found GFX model=Intel HD Graphics 4000
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000  LAN 0, Vendor=10EC, MMIO=D000
+0:100  0:000  PCI (00|00:1C.05) : 8086 1E1A class=060400
+0:100  0:000  PCI (00|04:00.00) : 168C 002A class=028000
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 282A class=010400
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : 8086 1E24 class=118000
+0:100  0:000  Clover load options size = 0 bytes
+0:101  0:000  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:101  0:000  EFI\CLOVER\config.plist loaded: Success
+0:101  0:000  Found theme directory: EMBEDDED
+0:102  0:000  Found theme directory: RANDOM
+0:102  0:000  Loading early settings
+0:102  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:109  0:007  Default theme: embedded
+0:109  0:000  LoadDrivers() start
+0:110  0:000  Loading CsmVideoDxe-64.efi  status=Success
+0:111  0:001   - driver needs connecting
+0:111  0:000  Loading DataHubDxe-64.efi  status=Success
+0:156  0:045  Loading EmuVariableUefi-64.efi  status=Success
+0:158  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:159  0:001  Loading FSInject-64.efi  status=Success
+0:161  0:001  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:162  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:163  0:001  Loading PartitionDxe-64.efi  status=Success
+0:164  0:001   - driver needs connecting
+0:164  0:000  Loading VBoxHfs-64.efi  status=Success
+0:166  0:001   - driver needs connecting
+0:166  0:000  3 drivers needs connecting ...
+0:166  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:166  0:000  Partition driver loaded: 
+0:167  0:000  Video driver loaded: disconnect Successdisconnect Success
+0:592  0:425  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:558  0:965  LoadDrivers() end
+1:558  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:615  0:057  SetScreenResolution: 1920x1080 - already set
+1:615  0:000  Console modes reported: 3, available modes:
+1:616  0:000    Mode 1: 80x25 (current mode)
+1:616  0:000    Mode 2: 80x50
+1:616  0:000    Mode 3: 100x31
+1:616  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:616  0:000  MAC address of LAN #0= 00:6B:9E:04:02:3D:
+1:618  0:002  ScanSPD() start
+1:619  0:000  SMBus CmdReg: 0x3
+1:619  0:000  Scanning SMBus [8086:1E22], mmio: 0xF7915004, ioport: 0xF040, hostc: 0x1
+1:619  0:000  Slots to scan [8]...
+1:634  0:014  SPD[0]: Type 11 @0x50 
+1:634  0:000  DDR speed 1333MHz 
+1:634  0:000  Slot: 0 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:655  0:020  SPD[2]: Type 11 @0x52 
+1:656  0:000  DDR speed 1333MHz 
+1:656  0:000  Slot: 2 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:686  0:030  ScanSPD() end
+1:687  0:000  Get Acpi Tables List from RSDT:
+1:687  0:000   Found table: FACP  Computer len=132
+1:688  0:000   Found table: APIC  Computer len=146
+1:688  0:000   Found table: FPDT  Computer len=68
+1:688  0:000   Found table: ASF!  Computer len=165
+1:688  0:000   Found table: MCFG  Computer len=60
+1:688  0:000   Found table: MSDM  Computer len=85
+1:688  0:000   Found table: HPET  Computer len=56
+1:689  0:000   Found table: SSDT  SataTabl len=789
+1:689  0:000   Found table: SSDT  Cpu0Ist len=2276
+1:689  0:000   Found table: SSDT  CpuPm len=2706
+1:689  0:000   Found table: BGRT  Computer len=56
+1:689  0:000   Found table: UEFI  RstSataV len=92
+1:689  0:000   Found table: SSDT  SgTabl len=2270
+1:690  0:000   Found table: SSDT  OptTabl len=4904
+1:690  0:000  Calibrated TSC frequency =2294788605 =2294MHz
+1:690  0:000  Loading main settings
+1:690  0:000  USB FixOwnership: true
+1:690  0:000  Dropping 3 tables
+1:690  0:000  Drop table 0 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+1:693  0:002  set table: 54445353,       6D50757043 to drop:  true
+1:693  0:000  
+1:693  0:000  Drop table 1 signature="DMAR" (52414D44)
+1:694  0:001  set table: 52414D44,                0 to drop:
+1:694  0:000  Drop table 2 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+1:698  0:003  set table: 54445353,   74734930757043 to drop:  true
+1:698  0:000  
+1:698  0:000  Config set Fixes will override FixMask mask!
+1:698  0:000     final mask=9FC2F9D7
+1:698  0:000  Config set ChassisType=0x8
+1:699  0:000  Config set QPI=45MHz
+1:699  0:000  Config set CpuFreq=2300MHz
+1:699  0:000  Config set BusSpeed=100kHz
+1:699  0:000  found 9 volumes with blockIO
+1:699  0:000   0. Volume:
+1:699  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)
+1:702  0:002    Result of bootcode detection: bootable unknown (legacy)
+1:702  0:000    USB volume
+1:702  0:000    USB volume
+1:702  0:000   1. Volume:
+1:703  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(1,MBR,0x00000000,0x2,0xE88D7E)
+1:705  0:002    Result of bootcode detection: bootable unknown (legacy)
+1:705  0:000    USB volume
+1:705  0:000    USB volume
+1:705  0:000   2. Volume:
+1:705  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)
+1:705  0:000    Result of bootcode detection: bootable Linux (grub,linux)
+1:706  0:000   3. Volume:
+1:706  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x8000,0x0)
+1:706  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:706  0:000   4. Volume:
+1:707  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(1,GPT,BD209044-77AC-44A5-B132-511CA01674D6,0x800,0x800)
+1:708  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:708  0:000   5. Volume:
+1:708  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:708  0:000    Result of bootcode detection: bootable unknown (legacy)
+1:709  0:000    This is SelfVolume !!
+1:709  0:000   6. Volume:
+1:709  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(3,GPT,06A761D6-B916-4A96-91C3-8C2E1F170BF0,0x118800,0x38D5800)
+1:709  0:000   7. Volume:
+1:709  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:710  0:000   8. Volume:
+1:710  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(6,GPT,8FF72CF7-DB01-4912-85A7-6AFEDA6A2314,0x3B8AB368,0x135F20)
+1:721  0:011  Loading nvram.plist from Vol 'New Volume' - loaded, size=1336
+1:722  0:000  PutNvramPlistToRtVars ...
+1:722  0:000   Skipping EmuVariableUefiPresent
+1:722  0:000  Custom entries start
+1:723  0:000  Custom entries finish
+1:723  0:000  Scanning loaders...
+1:723  0:000   0: 'Whole Disc Boot' no file system
+1:723  0:000   1: 'OSX'
+1:746  0:022      AddLoaderEntry for Volume Name=OSX
+1:757  0:010      Check if volume Is Hibernated:
+1:757  0:000      Check sleep image 'by signature':
+1:770  0:013      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Not Found
+1:770  0:000      using default sleep image name = \private\var\vm\sleepimage
+1:783  0:013      sleepimage not found -> Not Found
+1:784  0:000       hibernated: no - sign
+1:790  0:006   2: 'Whole Disc Boot' no file system
+1:790  0:000   3: 'Whole Disc Boot' no file system
+1:791  0:000   4: 'Legacy HD1' no file system
+1:791  0:000   5: 'EFI'
+1:792  0:000      AddLoaderEntry for Volume Name=EFI
+1:793  0:001      AddLoaderEntry for Volume Name=EFI
+1:873  0:079   6: 'Legacy HD3' no file system
+1:873  0:000   7: 'New Volume'
+1:875  0:001      AddLoaderEntry for Volume Name=New Volume
+1:876  0:001      Check if volume Is Hibernated:
+1:876  0:000      Check sleep image 'by signature':
+1:878  0:001      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+1:878  0:000      SleepImage name from pref: ImageVolume = 'New Volume', ImageName = '\private\var\vm\sleepimage'
+1:879  0:001      Reading first 512 bytes of sleepimage ...
+1:880  0:000   OurBlockIoRead: Lba=13A254F0, Offset=2744A9E000 (BlockSize=512)
+1:880  0:000   sig lion: DBF060
+1:880  0:000   sig snow: 19A5082
+1:880  0:000   no valid sleep image offset was found
+1:880  0:000      Reading completed -> Success
+1:881  0:000       sleepimage offset could not be acquired
+1:881  0:000       hibernated: no - sign
+1:902  0:021   8: 'Recovery HD'
+1:903  0:000      AddLoaderEntry for Volume Name=Recovery HD
+1:905  0:001  EmuVariable InstallEmulation: EFI_ALREADY_STARTED
+1:905  0:000  GetEfiBootDeviceFromNvram:
+1:905  0:000   efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:906  0:000   Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)'
+1:906  0:000   LoaderPath: '<null string>'
+1:906  0:000   Guid = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+1:906  0:000   volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+1:906  0:000   searching for that partition
+1:907  0:000    found entry 3. 'Boot Mac OS X from New Volume', Volume 'New Volume'
+1:907  0:000  Boot redirected to Entry 3. 'Boot Mac OS X from New Volume'
+1:908  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+1:908  0:000  DefaultIndex=3 and MainMenu.EntryCount=5
+1:908  0:000  StartLoader() start
+1:908  0:000  Finally: Bus=99773kHz CPU=2300MHz
+1:909  0:000  Kernel and Kext Patches at BA6D5E30:
+1:909  0:000  	Allowed: y
+1:909  0:000  	Debug: n
+1:909  0:000  	KernelCpu: n
+1:909  0:000  	Lapic: n
+1:909  0:000  	Haswell-E: n
+1:909  0:000  	AICPUPM: y
+1:910  0:000  	AppleRTC: y
+1:910  0:000  	KernelPm: y
+1:910  0:000  	FakeCPUID: 0x0
+1:910  0:000  	ATIController: null
+1:910  0:000  	ATIDataLength: 0
+1:910  0:000  	0 Kexts to load
+1:911  0:000  	0 Kexts to patch
+1:911  0:000  Loading boot.efi  status=Success
+1:976  0:065  GetOSVersion: : 10.10.1
+1:977  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+2:034  0:057  insert table 9 for dev 0:0
+2:034  0:000  insert table 9 for dev 0:0
+2:034  0:000  insert table 9 for dev 0:0
+2:035  0:000  Channels: 2
+2:036  0:000  Interleave: 0 2 1 3 4 6 5 7
+2:037  0:001  SMBIOS Type 17 Index = 0 => 0 0:
+2:037  0:000  BANK0 DIMM0 1333MHz 8192MB
+2:038  0:000  mTotalSystemMemory = 8192
+2:038  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+2:038  0:000  BANK1 DIMM0 1333MHz 8192MB
+2:038  0:000  mTotalSystemMemory = 16384
+2:038  0:000  NumberOfMemoryDevices = 2
+2:038  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+2:039  0:000  Type20[1]->End = 0xFFFFFF, Type17[1] = 0x6000
+2:039  0:000  Table 131 is present, CPUType=31
+2:039  0:000  Change to: 704
+2:039  0:000  RSDT 0xC99EC028
+2:039  0:000  FADT from RSDT: 0xC99EC128
+2:039  0:000  XSDT 0xC99EC088
+2:040  0:000  FADT from XSDT: 0xC99F57C0
+2:040  0:000  Xsdt reallocation done
+2:040  0:000  old FADT length=10C
+2:040  0:000  Found OperationRegion(GNVS, SystemMemory, CA046E18, ...)
+2:040  0:000  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+2:040  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+2:040  0:000  Found OperationRegion(CPSB, SystemMemory, C99E8E18, ...)
+2:041  0:000  Found OperationRegion(IGDM, SystemMemory, 0, ...)
+2:041  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+2:041  0:000  Found OperationRegion(TVID, SystemMemory, FED40F00, ...)
+2:041  0:000  Found OperationRegion(TPMR, SystemMemory, FED40000, ...)
+2:042  0:000  Apply DsdtFixMask=0x9FC2F9D7 new way
+2:042  0:000     drop _DSM mask=0x0000
+2:042  0:000  ========= Auto patch DSDT Starting ========
+2:042  0:000  VideoCard devID=0xFD310DE
+2:042  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+2:043  0:000  VideoCard devID=0x1668086
+2:043  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+2:043  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+2:043  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+2:179  0:135  Found Airport Atheros at 0x1C0005, 0x0, DeviceID=0x002A
+2:179  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+2:179  0:000  first CPU found at 5B9D offset 5BA0
+2:179  0:000  score candidate at 5B99
+2:179  0:000  score inserted in acpi_cpu_score _PR_
+2:180  0:000  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+2:181  0:001  Found PCIROOTUID = 0
+2:182  0:000  Start RTC Fix
+2:182  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+2:182  0:000  found RTC had IRQNoFlag will move -3 bytes
+2:182  0:000  ...len=9647
+2:182  0:000  new size written to 1FEE shift=0 len=9647
+2:183  0:000  len after correct outers 9647
+2:183  0:000  Start PIC Fix
+2:183  0:000  PIC size=A5 at 1E82
+2:183  0:000  found CRS at 1E96 size 8D
+2:183  0:000  found PIC had IRQNoFlag will move -3 bytes
+2:184  0:000  Fix Device PIC size -3
+2:184  0:000  Start HPET Fix
+2:185  0:000  Start Display0 Fix
+2:185  0:000  Found internal video device FFFF@26AE, unusable
+2:185  0:000  Creating DSM for NVIDIA card
+2:185  0:000  patch Display #0 of Vendor=0x10DE in DSDT new way
+2:185  0:000  Start NetWork Fix
+2:186  0:000  found NetWork device [0x001C0002:0] at 2529 and Name is PXSX
+2:186  0:000  NetworkADR1=1C0002 NetworkADR2=0
+2:186  0:000  network DSM created, size=7C
+2:187  0:000  Start Airport Fix
+2:187  0:000  found Airport device [001C0005:0] at 26A5 And Name is PXSX
+2:187  0:000  Name PXSX present at 0xA2, renaming to ARPT
+2:188  0:000  Name PXSX present at 0xE0, renaming to ARPT
+2:188  0:000  AirportADR=26A5 add patch size=119
+2:188  0:000  adr 26A5 size of arpt=17
+2:189  0:000  Start SBUS Fix PCI=E65 len=9769
+2:189  0:000  device (SBUS) found at 3B71
+2:189  0:000  SBUS code size fix = 0x0000005D
+2:189  0:000  patch HDEF in DSDT 
+2:190  0:000  Start HDA Fix
+2:190  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+2:190  0:000  NewName HDEF already present, renaming impossibble
+2:190  0:000  Start USB Fix
+2:191  0:000  USB bridge[140000] at 34C8, size = 645
+2:191  0:000  USB bridge[1A0000] at 311C, size = 3AA
+2:191  0:000   found slave _DSM, skip
+2:192  0:000  USB bridge[1D0000] at 2BE6, size = 534
+2:192  0:000   found slave _DSM, skip
+2:192  0:000   deleting device CRT_
+2:193  0:000   deleting device DVI_
+2:193  0:000   deleting device SPKR
+2:194  0:000   deleting device ECP_
+2:194  0:000   deleting device LPT_
+2:195  0:000   deleting device FDC0
+2:195  0:000   deleting device ECP1
+2:195  0:000   deleting device LPT1
+2:196  0:000  Start PNLF Fix
+2:197  0:000  found PWRB at 6F43
+2:197  0:000  Start _S3D Fix
+2:198  0:000  OperationRegion (GNVS...) corrected to addr=0xCA046E18
+2:198  0:000  OperationRegion (MCHT...) corrected to addr=0xFED10000
+2:198  0:000    indirect name=SRCB
+2:198  0:000  OperationRegion (RCRB...) corrected to addr=0xFED1C000
+2:198  0:000  OperationRegion (CPSB...) corrected to addr=0xC99E8E18
+2:199  0:000    indirect name=ASLB
+2:199  0:000  ... value not defined
+2:199  0:000  OperationRegion (IGDM...) corrected to addr=0x0
+2:199  0:000  OperationRegion (TMMB...) corrected to addr=0xFED40000
+2:199  0:000  OperationRegion (TVID...) corrected to addr=0xFED40F00
+2:199  0:000  OperationRegion (TPMR...) corrected to addr=0xFED40000
+2:200  0:000  Start ADP1 fix
+2:200  0:000  Name ACAD present at 0x85C5, renaming to ADP1
+2:200  0:000  Name ACAD present at 0x9053, renaming to ADP1
+2:200  0:000  Name ACAD present at 0x910B, renaming to ADP1
+2:200  0:000  Name ACAD present at 0x9127, renaming to ADP1
+2:201  0:000  Start Darwin Fix
+2:201  0:000  Name _OSI present at 0x15C7, renaming to OOSI
+2:201  0:000  Name _OSI present at 0x3546, renaming to OOSI
+2:201  0:000  Name _OSI present at 0x6523, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x652A, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x6546, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x6566, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x6586, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x65A4, renaming to OOSI
+2:202  0:000  Name _OSI present at 0x65C0, renaming to OOSI
+2:203  0:000  Name _OSI present at 0x65DC, renaming to OOSI
+2:203  0:000  Name _OSI present at 0x8210, renaming to OOSI
+2:203  0:000  Name _OSI present at 0x8995, renaming to OOSI
+2:203  0:000  Start SHUTDOWN Fix len=99E6
+2:203  0:000  ========= Auto patch DSDT Finished ========
+2:204  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=CpuPm Length=2706
+2:204  0:000   Xsdt has tables count=14 
+2:204  0:000   Table: SSDT  CpuPm  2706 dropped
+2:204  0:000  corrected XSDT length=140
+2:204  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=Cpu0Ist Length=2276
+2:205  0:000   Xsdt has tables count=13 
+2:205  0:000   Table: SSDT  Cpu0Ist  2276 dropped
+2:205  0:000  corrected XSDT length=132
+2:205  0:000  Patch table: SSDT  SataTabl
+2:205  0:000   SSDT len = 0x315
+2:205  0:000  Patch table: SSDT  SgTabl
+2:206  0:000   SSDT len = 0x8DE
+2:206  0:000  Patch table: SSDT  OptTabl
+2:206  0:000   SSDT len = 0x1328
+2:206  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+2:206  0:000   Xsdt has tables count=12 
+2:206  0:000  corrected XSDT length=132
+2:207  0:000   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+2:207  0:000  Maximum control=0x17
+2:208  0:000  Turbo control=0x21
+2:208  0:000  P-States: min 0x7, max 0x21
+2:208  0:000  SSDT with CPU P-States generated successfully
+2:208  0:000  SSDT with CPU C-States generated successfully
+2:208  0:000  NVidia GFX injection not set
+2:209  0:000  Intel Intel HD Graphics 4000 [8086:0166] :: PciRoot(0x0)\Pci(0x2,0x0)
+2:209  0:000  Intel GFX revision  =0x9
+2:209  0:000  USB Controller [8086:1E31] :: PciRoot(0x0)\Pci(0x14,0x0)
+2:209  0:000  USB Controller [8086:1E2D] :: PciRoot(0x0)\Pci(0x1A,0x0)
+2:209  0:000  HDA Controller [8086:1E20] :: PciRoot(0x0)\Pci(0x1B,0x0) => codec not detected
+2:345  0:135  USB Controller [8086:1E26] :: PciRoot(0x0)\Pci(0x1D,0x0)
+2:345  0:000  stringlength = 2654
+2:346  0:000  CurrentMode: Width=1920 Height=1080
+2:346  0:000  FSInjection: using kexts path: 'EFI\CLOVER\kexts\Other'2:346  0:000  
+2:348  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+2:349  0:000    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+2:350  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+2:352  0:002      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+2:353  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+2:355  0:001    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelFramebufferCapri.kext
+2:358  0:002    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelSNBGraphicsFB.kext
+2:360  0:002    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+2:362  0:002    Extra kext: EFI\CLOVER\kexts\Other\HPRAIDInjector.kext
+2:363  0:000    Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext
+2:365  0:001  SetStartupDiskVolume:
+2:365  0:000    * Volume: 'New Volume'
+2:366  0:000    * LoaderPath: '<null string>'
+2:366  0:000    * DevPath: New Volume
+2:366  0:000    * GUID = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+2:366  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>56B0B245-51D9-463D-9B79-CEA9F125FBAF</string></dict></dict></dict></array>
+2:366  0:000  Custom boot screen not used because entry has unset use graphics
+2:366  0:000  Closing log
+3:938  1:571  Legacy USB Off Done
+3:940  0:002  USB EHCI Ownership for device 1E2D value=1000001
+3:941  0:000  Legacy USB Off Done
+3:942  0:000  USB EHCI Ownership for device 1E26 value=1000001
+0:100  0:100  MemLog inited, TSC freq: 2294786943
+0:100  0:000  
+0:100  0:000  Now is 22.2.2015,  5:14:16 (GMT+2047)
+0:100  0:000  Starting Clover rev 3176:3182 on American Megatrends EFI
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000) @C7CF6318
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1333MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  Boot status=0
+0:100  0:000  Clover revision: 3176:3182  running on CN15-A5
+0:100  0:000  ... with board VZ4
+0:100  0:000  CPU Vendor = 756E6547 Model=306A9
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xE4              00020414
+0:100  0:000  MSR 0xCE              00080C10_E0011700
+0:100  0:000  non-usable FLEX_RATIO = 110000
+0:100  0:000  corrected FLEX_RATIO = 100000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency=100MHz DMIvalue=100000kHz
+0:100  0:000  Corrected FSBFrequency=100MHz
+0:100  0:000  Vendor/Model/Stepping: 0x756E6547/0x3A/0x9
+0:100  0:000  Family/ExtFamily: 0x6/0x0
+0:100  0:000  MaxDiv/MinDiv: 23.0/12
+0:100  0:000  Turbo: 31/31/32/33
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 2300 MHz
+0:100  0:000  TSC: 2300 MHz
+0:100  0:000  PIS: 400 MHz
+0:100  0:000  PCI (00|00:00.00) : 8086 0154 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 0FD3 class=030000
+0:100  0:000  Found NVidia model=Quanta GeForce GT 640M LE
+0:100  0:000  PCI (00|00:02.00) : 8086 0166 class=030000
+0:100  0:000  Found GFX model=Intel HD Graphics 4000
+0:100  0:000  PCI (00|00:14.00) : 8086 1E31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 1E3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.02) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:16.03) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 1E2D class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 1E20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 1E10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 1E14 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 8168 class=020000
+0:100  0:000  LAN 0, Vendor=10EC, MMIO=D000
+0:100  0:000  PCI (00|00:1C.05) : 8086 1E1A class=060400
+0:100  0:000  PCI (00|04:00.00) : 168C 002A class=028000
+0:100  0:000  PCI (00|00:1D.00) : 8086 1E26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 1E57 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 282A class=010400
+0:100  0:000  PCI (00|00:1F.03) : 8086 1E22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : 8086 1E24 class=118000
+0:100  0:000  Clover load options size = 0 bytes
+0:101  0:000  Using OEM config.plist at path: EFI\CLOVER\config.plist
+0:101  0:000  EFI\CLOVER\config.plist loaded: Success
+0:101  0:000  Found theme directory: EMBEDDED
+0:102  0:000  Found theme directory: RANDOM
+0:102  0:000  Loading early settings
+0:102  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:109  0:007  Default theme: embedded
+0:109  0:000  LoadDrivers() start
+0:110  0:000  Loading CsmVideoDxe-64.efi  status=Success
+0:111  0:001   - driver needs connecting
+0:111  0:000  Loading DataHubDxe-64.efi  status=Success
+0:156  0:044  Loading EmuVariableUefi-64.efi  status=Success
+0:157  0:001  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:159  0:001  Loading FSInject-64.efi  status=Success
+0:160  0:001  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:161  0:001  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:162  0:001  Loading PartitionDxe-64.efi  status=Success
+0:163  0:001   - driver needs connecting
+0:164  0:000  Loading VBoxHfs-64.efi  status=Success
+0:165  0:001   - driver needs connecting
+0:165  0:000  3 drivers needs connecting ...
+0:165  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:165  0:000  Partition driver loaded: 
+0:166  0:000  Video driver loaded: disconnect Successdisconnect Success
+0:593  0:427  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+1:772  1:178  LoadDrivers() end
+1:772  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+1:829  0:057  SetScreenResolution: 1920x1080 - already set
+1:829  0:000  Console modes reported: 3, available modes:
+1:829  0:000    Mode 1: 80x25 (current mode)
+1:830  0:000    Mode 2: 80x50
+1:830  0:000    Mode 3: 100x31
+1:830  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+1:830  0:000  MAC address of LAN #0= 00:6B:9E:04:02:3D:
+1:831  0:001  ScanSPD() start
+1:832  0:000  SMBus CmdReg: 0x3
+1:832  0:000  Scanning SMBus [8086:1E22], mmio: 0xF7915004, ioport: 0xF040, hostc: 0x1
+1:832  0:000  Slots to scan [8]...
+1:847  0:014  SPD[0]: Type 11 @0x50 
+1:848  0:000  DDR speed 1333MHz 
+1:850  0:002  Slot: 0 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:870  0:020  SPD[2]: Type 11 @0x52 
+1:871  0:000  DDR speed 1333MHz 
+1:871  0:000  Slot: 2 Type 24 8192MB 1333MHz Vendor=NoName PartNo= SerialNo=0000000000000000 
+1:902  0:030  ScanSPD() end
+1:902  0:000  Get Acpi Tables List from RSDT:
+1:902  0:000   Found table: FACP  Computer len=132
+1:902  0:000   Found table: APIC  Computer len=146
+1:902  0:000   Found table: FPDT  Computer len=68
+1:902  0:000   Found table: ASF!  Computer len=165
+1:903  0:000   Found table: MCFG  Computer len=60
+1:903  0:000   Found table: MSDM  Computer len=85
+1:903  0:000   Found table: HPET  Computer len=56
+1:903  0:000   Found table: SSDT  SataTabl len=789
+1:903  0:000   Found table: SSDT  Cpu0Ist len=2276
+1:904  0:000   Found table: SSDT  CpuPm len=2706
+1:904  0:000   Found table: BGRT  Computer len=56
+1:904  0:000   Found table: UEFI  RstSataV len=92
+1:904  0:000   Found table: SSDT  SgTabl len=2270
+1:906  0:002   Found table: SSDT  OptTabl len=4904
+1:906  0:000  Calibrated TSC frequency =2294786943 =2294MHz
+1:907  0:000  Loading main settings
+1:907  0:000  USB FixOwnership: true
+1:907  0:000  Dropping 3 tables
+1:907  0:000  Drop table 0 signature="SSDT" (54445353) table-id="CpuPm" (0000006D50757043)
+1:909  0:002  set table: 54445353,       6D50757043 to drop:  true
+1:910  0:000  
+1:910  0:000  Drop table 1 signature="DMAR" (52414D44)
+1:911  0:001  set table: 52414D44,                0 to drop:
+1:911  0:000  Drop table 2 signature="SSDT" (54445353) table-id="Cpu0Ist" (0074734930757043)
+1:914  0:002  set table: 54445353,   74734930757043 to drop:  true
+1:915  0:000  
+1:915  0:000  Config set Fixes will override FixMask mask!
+1:915  0:000     final mask=9FC2F9D7
+1:915  0:000  Config set ChassisType=0x8
+1:915  0:000  Config set QPI=45MHz
+1:915  0:000  Config set CpuFreq=2300MHz
+1:916  0:000  Config set BusSpeed=100kHz
+1:916  0:000  found 18 volumes with blockIO
+1:916  0:000   0. Volume:
+1:916  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)
+1:962  0:046    Result of bootcode detection: bootable unknown (legacy)
+1:963  0:000    USB volume
+1:963  0:000    USB volume
+1:963  0:000   1. Volume:
+1:963  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(1,GPT,4F14E216-3F38-4268-A1DA-1C0020D69F80,0x800,0x96000)
+1:971  0:007    Result of bootcode detection: bootable Windows (vista,win)
+1:971  0:000    USB volume
+1:971  0:000    USB volume
+1:971  0:000   2. Volume:
+1:971  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(2,GPT,304C6048-5662-4157-8ED7-241CFFA18D67,0x96800,0x82000)
+1:976  0:005    Result of bootcode detection: bootable Windows (vista,win)
+1:977  0:000    USB volume
+1:977  0:000    USB volume
+2:061  0:083   3. Volume:
+2:061  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(3,GPT,5EE254E1-3C69-4CE0-924D-769C33CB74BE,0x118800,0x40000)
+2:070  0:008    USB volume
+2:070  0:000    USB volume
+2:070  0:000   4. Volume:
+2:070  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(4,GPT,C2D66D37-E939-4703-A04B-83C5E54C93B7,0x158800,0xC91A000)
+2:085  0:014    Result of bootcode detection: bootable Windows (vista,win)
+2:085  0:000    USB volume
+2:085  0:000    USB volume
+2:085  0:000   5. Volume:
+2:086  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(5,GPT,46FE468E-2EAA-498D-9FCC-E0C15A8EAC9B,0xCA72800,0x627A800)
+2:104  0:018    Result of bootcode detection: bootable Windows (vista,win)
+2:104  0:000    USB volume
+2:105  0:000    USB volume
+2:105  0:000   6. Volume:
+2:105  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(6,GPT,7098A3C1-C1B7-47E7-BC36-786A4F32882D,0x33FC6800,0x1F770800)
+2:120  0:014    Result of bootcode detection: bootable Windows (vista,win)
+2:120  0:000    USB volume
+2:120  0:000    USB volume
+2:120  0:000   7. Volume:
+2:120  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(7,GPT,483AFA3B-917E-40BC-8B7A-10BF35519702,0x64D06800,0xCD6E000)
+2:137  0:017    Result of bootcode detection: bootable Windows (vista,win)
+2:138  0:000    USB volume
+2:138  0:000    USB volume
+2:138  0:000   8. Volume:
+2:138  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(8,GPT,AFC0F3F0-9C5C-4B2C-B4D9-04E7463617E6,0x73766800,0xFA0000)
+2:157  0:018    Result of bootcode detection: bootable Windows (vista,win)
+2:157  0:000    USB volume
+2:157  0:000    USB volume
+2:157  0:000   9. Volume:
+2:157  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(9,GPT,FEF94336-CAF4-4F21-BE90-EDD203F84679,0x12CED000,0x212D9800)
+2:183  0:025    USB volume
+2:183  0:000    USB volume
+2:184  0:000  10. Volume:
+2:184  0:000    PciRoot(0x0)\Pci(0x1D,0x0)\USB(0x1,0x0)\USB(0x1,0x0)\HD(10,GPT,BAF74948-D664-4B20-AF90-74E432443EA8,0x53737000,0x115CF800)
+2:209  0:025    USB volume
+2:209  0:000    USB volume
+2:209  0:000  11. Volume:
+2:209  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)
+2:210  0:000    Result of bootcode detection: bootable Linux (grub,linux)
+2:210  0:000  12. Volume:
+2:210  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0x8000,0x0)
+2:211  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:211  0:000  13. Volume:
+2:211  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(1,GPT,BD209044-77AC-44A5-B132-511CA01674D6,0x800,0x800)
+2:211  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:211  0:000  14. Volume:
+2:212  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(2,GPT,B7FB12D7-E5E1-433A-BB69-0497A3E8F6F3,0x1000,0x64000)
+2:212  0:000    Result of bootcode detection: bootable unknown (legacy)
+2:212  0:000    This is SelfVolume !!
+2:213  0:000  15. Volume:
+2:213  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(3,GPT,06A761D6-B916-4A96-91C3-8C2E1F170BF0,0x118800,0x38D5800)
+2:213  0:000  16. Volume:
+2:213  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+2:213  0:000  17. Volume:
+2:214  0:000    PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(6,GPT,8FF72CF7-DB01-4912-85A7-6AFEDA6A2314,0x3B8AB368,0x135F20)
+2:292  0:078  Loading nvram.plist from Vol 'New Volume' - loaded, size=1336
+2:293  0:000  PutNvramPlistToRtVars ...
+2:293  0:000   Skipping EmuVariableUefiPresent
+2:293  0:000  Custom entries start
+2:293  0:000  Custom entries finish
+2:294  0:000  Scanning loaders...
+2:294  0:000   0: 'Whole Disc Boot' no file system
+2:294  0:000   1: 'Legacy HD1' no file system
+2:294  0:000   2: 'SYSTEM'
+2:320  0:025      AddLoaderEntry for Volume Name=SYSTEM
+2:342  0:022      AddLoaderEntry for Volume Name=SYSTEM
+2:357  0:014   3: 'Legacy HD3' no file system
+2:357  0:000   4: 'Legacy HD4' no file system
+2:357  0:000   5: 'Legacy HD5' no file system
+2:358  0:000   6: 'Legacy HD6' no file system
+2:358  0:000   7: 'Legacy HD7' no file system
+2:358  0:000   8: 'Legacy HD8' no file system
+2:358  0:000   9: 'TimeMashine'
+2:361  0:002  10: 'Zip'
+2:362  0:001  11: 'Whole Disc Boot' no file system
+2:362  0:000  12: 'Whole Disc Boot' no file system
+2:363  0:000  13: 'Legacy HD1' no file system
+2:363  0:000  14: 'EFI'
+2:364  0:000      AddLoaderEntry for Volume Name=EFI
+2:365  0:001      AddLoaderEntry for Volume Name=EFI
+2:448  0:082  15: 'Legacy HD3' no file system
+2:448  0:000  16: 'New Volume'
+2:450  0:001      AddLoaderEntry for Volume Name=New Volume
+2:451  0:001      Check if volume Is Hibernated:
+2:451  0:000      Check sleep image 'by signature':
+2:453  0:001      read prefs \Library\Preferences\SystemConfiguration\com.apple.PowerManagement.plist status=Success
+2:453  0:000      SleepImage name from pref: ImageVolume = 'New Volume', ImageName = '\private\var\vm\sleepimage'
+2:455  0:001      Reading first 512 bytes of sleepimage ...
+2:455  0:000   OurBlockIoRead: Lba=13A254F0, Offset=2744A9E000 (BlockSize=512)
+2:455  0:000   sig lion: F1E0BE9D
+2:455  0:000   sig snow: 0
+2:455  0:000   no valid sleep image offset was found
+2:455  0:000      Reading completed -> Success
+2:456  0:000       sleepimage offset could not be acquired
+2:456  0:000       hibernated: no - sign
+2:479  0:022  17: 'Recovery HD'
+2:479  0:000      AddLoaderEntry for Volume Name=Recovery HD
+2:481  0:001  EmuVariable InstallEmulation: EFI_ALREADY_STARTED
+2:481  0:000  GetEfiBootDeviceFromNvram:
+2:482  0:000   efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+2:482  0:000   Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)'
+2:482  0:000   LoaderPath: '<null string>'
+2:482  0:000   Guid = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+2:483  0:000   volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0x8000,0x0)\HD(5,GPT,56B0B245-51D9-463D-9B79-CEA9F125FBAF,0x3B24000,0x37D87368)
+2:483  0:000   searching for that partition
+2:483  0:000    found entry 4. 'Boot Mac OS X from New Volume', Volume 'New Volume'
+2:483  0:000  Boot redirected to Entry 4. 'Boot Mac OS X from New Volume'
+2:483  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+2:484  0:000  DefaultIndex=4 and MainMenu.EntryCount=6
+2:484  0:000  StartLoader() start
+2:486  0:002  Finally: Bus=99773kHz CPU=2300MHz
+2:486  0:000  Kernel and Kext Patches at BA6D5E30:
+2:486  0:000  	Allowed: y
+2:487  0:000  	Debug: n
+2:487  0:000  	KernelCpu: n
+2:487  0:000  	Lapic: n
+2:487  0:000  	Haswell-E: n
+2:487  0:000  	AICPUPM: y
+2:487  0:000  	AppleRTC: y
+2:488  0:000  	KernelPm: y
+2:488  0:000  	FakeCPUID: 0x0
+2:488  0:000  	ATIController: null
+2:488  0:000  	ATIDataLength: 0
+2:488  0:000  	0 Kexts to load
+2:489  0:000  	0 Kexts to patch
+2:489  0:000  Loading boot.efi  status=Success
+2:554  0:065  GetOSVersion: : 10.10.1
+2:555  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+2:612  0:057  insert table 9 for dev 0:0
+2:613  0:000  insert table 9 for dev 0:0
+2:613  0:000  insert table 9 for dev 0:0
+2:614  0:000  Channels: 2
+2:614  0:000  Interleave: 0 2 1 3 4 6 5 7
+2:616  0:001  SMBIOS Type 17 Index = 0 => 0 0:
+2:616  0:000  BANK0 DIMM0 1333MHz 8192MB
+2:616  0:000  mTotalSystemMemory = 8192
+2:616  0:000  SMBIOS Type 17 Index = 1 => 2 2:
+2:616  0:000  BANK1 DIMM0 1333MHz 8192MB
+2:616  0:000  mTotalSystemMemory = 16384
+2:617  0:000  NumberOfMemoryDevices = 2
+2:617  0:000  Type20[0]->End = 0x7FFFFF, Type17[0] = 0x2000
+2:617  0:000  Type20[1]->End = 0xFFFFFF, Type17[1] = 0x6000
+2:617  0:000  Table 131 is present, CPUType=31
+2:617  0:000  Change to: 704
+2:618  0:000  RSDT 0xC99EC028
+2:618  0:000  FADT from RSDT: 0xC99EC128
+2:618  0:000  XSDT 0xC99EC088
+2:618  0:000  FADT from XSDT: 0xC99F57C0
+2:618  0:000  Xsdt reallocation done
+2:618  0:000  old FADT length=10C
+2:619  0:000  Found OperationRegion(GNVS, SystemMemory, CA046E18, ...)
+2:619  0:000  Found OperationRegion(MCHT, SystemMemory, FED10000, ...)
+2:619  0:000  Found OperationRegion(RCRB, SystemMemory, FED1C000, ...)
+2:619  0:000  Found OperationRegion(CPSB, SystemMemory, C99E8E18, ...)
+2:619  0:000  Found OperationRegion(IGDM, SystemMemory, 0, ...)
+2:620  0:000  Found OperationRegion(TMMB, SystemMemory, FED40000, ...)
+2:620  0:000  Found OperationRegion(TVID, SystemMemory, FED40F00, ...)
+2:620  0:000  Found OperationRegion(TPMR, SystemMemory, FED40000, ...)
+2:620  0:000  Apply DsdtFixMask=0x9FC2F9D7 new way
+2:621  0:000     drop _DSM mask=0x0000
+2:621  0:000  ========= Auto patch DSDT Starting ========
+2:621  0:000  VideoCard devID=0xFD310DE
+2:621  0:000  DisplayADR1[0] = 0x10000, DisplayADR2[0] = 0x0
+2:621  0:000  VideoCard devID=0x1668086
+2:622  0:000  DisplayADR1[1] = 0x20000, DisplayADR2[1] = 0xFFFE
+2:622  0:000  USBADR[0] = 0x140000 and PCIe = 0xFFFE
+2:622  0:000  USBADR[1] = 0x1A0000 and PCIe = 0xFFFE
+2:757  0:135  Found Airport Atheros at 0x1C0005, 0x0, DeviceID=0x002A
+2:758  0:000  USBADR[2] = 0x1D0000 and PCIe = 0xFFFE
+2:758  0:000  first CPU found at 5B9D offset 5BA0
+2:758  0:000  score candidate at 5B99
+2:758  0:000  score inserted in acpi_cpu_score _PR_
+2:758  0:000  Found ACPI CPU: CPU0 And CPU1 And CPU2 And CPU3 And CPU4 And CPU5 And CPU6 And CPU7 
+  within the score: _PR_
+2:760  0:001  Found PCIROOTUID = 0
+2:760  0:000  Start RTC Fix
+2:761  0:000  found RTC Length not match, Maybe will case CMOS reset will patch it.
+2:761  0:000  found RTC had IRQNoFlag will move -3 bytes
+2:761  0:000  ...len=9647
+2:761  0:000  new size written to 1FEE shift=0 len=9647
+2:762  0:000  len after correct outers 9647
+2:762  0:000  Start PIC Fix
+2:762  0:000  PIC size=A5 at 1E82
+2:762  0:000  found CRS at 1E96 size 8D
+2:762  0:000  found PIC had IRQNoFlag will move -3 bytes
+2:763  0:000  Fix Device PIC size -3
+2:763  0:000  Start HPET Fix
+2:764  0:000  Start Display0 Fix
+2:764  0:000  Found internal video device FFFF@26AE, unusable
+2:766  0:002  Creating DSM for NVIDIA card
+2:766  0:000  patch Display #0 of Vendor=0x10DE in DSDT new way
+2:767  0:000  Start NetWork Fix
+2:767  0:000  found NetWork device [0x001C0002:0] at 2529 and Name is PXSX
+2:767  0:000  NetworkADR1=1C0002 NetworkADR2=0
+2:767  0:000  network DSM created, size=7C
+2:768  0:000  Start Airport Fix
+2:768  0:000  found Airport device [001C0005:0] at 26A5 And Name is PXSX
+2:769  0:000  Name PXSX present at 0xA2, renaming to ARPT
+2:769  0:000  Name PXSX present at 0xE0, renaming to ARPT
+2:769  0:000  AirportADR=26A5 add patch size=119
+2:769  0:000  adr 26A5 size of arpt=17
+2:770  0:000  Start SBUS Fix PCI=E65 len=9769
+2:770  0:000  device (SBUS) found at 3B71
+2:770  0:000  SBUS code size fix = 0x0000005D
+2:771  0:000  patch HDEF in DSDT 
+2:771  0:000  Start HDA Fix
+2:771  0:000  found HDA device NAME(_ADR,0x001B0000) And Name is HDEF
+2:771  0:000  NewName HDEF already present, renaming impossibble
+2:772  0:000  Start USB Fix
+2:772  0:000  USB bridge[140000] at 34C8, size = 645
+2:772  0:000  USB bridge[1A0000] at 311C, size = 3AA
+2:773  0:000   found slave _DSM, skip
+2:773  0:000  USB bridge[1D0000] at 2BE6, size = 534
+2:773  0:000   found slave _DSM, skip
+2:774  0:000   deleting device CRT_
+2:774  0:000   deleting device DVI_
+2:776  0:002   deleting device SPKR
+2:777  0:000   deleting device ECP_
+2:777  0:000   deleting device LPT_
+2:778  0:000   deleting device FDC0
+2:778  0:000   deleting device ECP1
+2:778  0:000   deleting device LPT1
+2:779  0:000  Start PNLF Fix
+2:780  0:000  found PWRB at 6F43
+2:780  0:000  Start _S3D Fix
+2:780  0:000  OperationRegion (GNVS...) corrected to addr=0xCA046E18
+2:780  0:000  OperationRegion (MCHT...) corrected to addr=0xFED10000
+2:781  0:000    indirect name=SRCB
+2:781  0:000  OperationRegion (RCRB...) corrected to addr=0xFED1C000
+2:781  0:000  OperationRegion (CPSB...) corrected to addr=0xC99E8E18
+2:781  0:000    indirect name=ASLB
+2:781  0:000  ... value not defined
+2:782  0:000  OperationRegion (IGDM...) corrected to addr=0x0
+2:782  0:000  OperationRegion (TMMB...) corrected to addr=0xFED40000
+2:782  0:000  OperationRegion (TVID...) corrected to addr=0xFED40F00
+2:782  0:000  OperationRegion (TPMR...) corrected to addr=0xFED40000
+2:782  0:000  Start ADP1 fix
+2:783  0:000  Name ACAD present at 0x85C5, renaming to ADP1
+2:783  0:000  Name ACAD present at 0x9053, renaming to ADP1
+2:783  0:000  Name ACAD present at 0x910B, renaming to ADP1
+2:783  0:000  Name ACAD present at 0x9127, renaming to ADP1
+2:784  0:000  Start Darwin Fix
+2:784  0:000  Name _OSI present at 0x15C7, renaming to OOSI
+2:784  0:000  Name _OSI present at 0x3546, renaming to OOSI
+2:786  0:002  Name _OSI present at 0x6523, renaming to OOSI
+2:786  0:000  Name _OSI present at 0x652A, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x6546, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x6566, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x6586, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x65A4, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x65C0, renaming to OOSI
+2:787  0:000  Name _OSI present at 0x65DC, renaming to OOSI
+2:788  0:000  Name _OSI present at 0x8210, renaming to OOSI
+2:788  0:000  Name _OSI present at 0x8995, renaming to OOSI
+2:788  0:000  Start SHUTDOWN Fix len=99E6
+2:788  0:000  ========= Auto patch DSDT Finished ========
+2:789  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=CpuPm Length=2706
+2:789  0:000   Xsdt has tables count=14 
+2:789  0:000   Table: SSDT  CpuPm  2706 dropped
+2:789  0:000  corrected XSDT length=140
+2:789  0:000  Drop tables from Xsdt, SIGN=SSDT TableID=Cpu0Ist Length=2276
+2:789  0:000   Xsdt has tables count=13 
+2:790  0:000   Table: SSDT  Cpu0Ist  2276 dropped
+2:790  0:000  corrected XSDT length=132
+2:790  0:000  Patch table: SSDT  SataTabl
+2:790  0:000   SSDT len = 0x315
+2:790  0:000  Patch table: SSDT  SgTabl
+2:790  0:000   SSDT len = 0x8DE
+2:791  0:000  Patch table: SSDT  OptTabl
+2:791  0:000   SSDT len = 0x1328
+2:791  0:000  Drop tables from Xsdt, SIGN=XXXX TableID= Length=0
+2:791  0:000   Xsdt has tables count=12 
+2:791  0:000  corrected XSDT length=132
+2:792  0:000   CPUBase=0 and ApicCPUBase=1 ApicCPUNum=8
+2:792  0:000  Maximum control=0x17
+2:792  0:000  Turbo control=0x21
+2:792  0:000  P-States: min 0x7, max 0x21
+2:792  0:000  SSDT with CPU P-States generated successfully
+2:793  0:000  SSDT with CPU C-States generated successfully
+2:793  0:000  NVidia GFX injection not set
+2:793  0:000  Intel Intel HD Graphics 4000 [8086:0166] :: PciRoot(0x0)\Pci(0x2,0x0)
+2:793  0:000  Intel GFX revision  =0x9
+2:793  0:000  USB Controller [8086:1E31] :: PciRoot(0x0)\Pci(0x14,0x0)
+2:794  0:000  USB Controller [8086:1E2D] :: PciRoot(0x0)\Pci(0x1A,0x0)
+2:794  0:000  HDA Controller [8086:1E20] :: PciRoot(0x0)\Pci(0x1B,0x0) => codec not detected
+2:930  0:135  USB Controller [8086:1E26] :: PciRoot(0x0)\Pci(0x1D,0x0)
+2:930  0:000  stringlength = 2654
+2:930  0:000  CurrentMode: Width=1920 Height=1080
+2:930  0:000  FSInjection: using kexts path: 'EFI\CLOVER\kexts\Other'2:931  0:000  
+2:933  0:002  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+2:934  0:000    Extra kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext
+2:936  0:002      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Keyboard.kext
+2:938  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Mouse.kext
+2:939  0:001      Extra PlugIn kext: EFI\CLOVER\kexts\Other\VoodooPS2Controller.kext\Contents\PlugIns\VoodooPS2Trackpad.kext
+2:941  0:001    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelFramebufferCapri.kext
+2:944  0:002    Extra kext: EFI\CLOVER\kexts\Other\AppleIntelSNBGraphicsFB.kext
+2:947  0:002    Extra kext: EFI\CLOVER\kexts\Other\FakeSMC.kext
+2:949  0:002    Extra kext: EFI\CLOVER\kexts\Other\HPRAIDInjector.kext
+2:949  0:000    Extra kext: EFI\CLOVER\kexts\Other\NullCPUPowerManagement.kext
+2:951  0:001  SetStartupDiskVolume:
+2:952  0:000    * Volume: 'New Volume'
+2:952  0:000    * LoaderPath: '<null string>'
+2:952  0:000    * DevPath: New Volume
+2:952  0:000    * GUID = 56B0B245-51D9-463D-9B79-CEA9F125FBAF
+2:953  0:000    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>56B0B245-51D9-463D-9B79-CEA9F125FBAF</string></dict></dict></dict></array>
+2:953  0:000  Custom boot screen not used because entry has unset use graphics
+2:953  0:000  Closing log
+4:532  1:578  Legacy USB Off Done
+4:534  0:002  USB EHCI Ownership for device 1E2D value=1000001
+4:535  0:000  Legacy USB Off Done
+4:536  0:000  USB EHCI Ownership for device 1E26 value=1000001
